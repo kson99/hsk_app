@@ -1,0 +1,15 @@
+{
+  "short_name": "HSK Exam Prep",
+  "name": "HSK Exam Prep",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "325x260"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
