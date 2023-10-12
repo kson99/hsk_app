@@ -185,7 +185,7 @@ function CTRC1(props) {
           ◀︎<span> Back</span>
         </button>
         <h1>Choose The Right Character</h1>
-        <p style={{ color: "crimson", fontSize: 25 }}>▶︎ Back</p>
+        <p style={{ color: "crimson", fontSize: 25 }}></p>
       </header>
       <div className="CTRC1-body">
         <div className="CTRC1-Game">

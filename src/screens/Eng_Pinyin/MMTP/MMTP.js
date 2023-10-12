@@ -319,7 +319,7 @@ function MMTP() {
           ◀︎<span> Back</span>
         </button>
         <h1>Match Meaning To Pinyin</h1>
-        <p style={{ color: "crimson", fontSize: 25 }}>▶︎ Back</p>
+        <p style={{ color: "crimson", fontSize: 25 }}></p>
       </header>
       <div className="MMTP-body">
         <div className="MMTP-Game">

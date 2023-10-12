@@ -1,136 +1,134 @@
 .CTRM {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.CTRM-body{
-    max-width: 1000px;
-    height: 100%;
-    width: 100%;
-    padding: 40px 30px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.CTRM-body {
+  max-width: 1000px;
+  height: 100%;
+  width: 100%;
+  padding: 40px 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.holder{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.CTRM-Levels{
-    width: 400px;
-    display: flex;
-    border-radius: 5px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.CTRM-Levels {
+  width: 400px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 15px;
 }
 
-.CTRM-Levels p{
-    margin: 1px;
-    width: 100%;
-    padding: 10px;
-    overflow: hidden;
-    box-shadow: 
-        inset 0 -3em 3em rgba(0, 0, 0, 0.1), 
-        0 0 0 2px rgb(255, 255, 255),
-        0 2px 5px 0 rgba(0, 0, 0, 0.4);
-        user-select: none;
+.CTRM-Levels p {
+  margin: 1px;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0 2px 5px 0 rgba(0, 0, 0, 0.4);
+  user-select: none;
 }
 
-.CTRM-Levels p:first-child{
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+.CTRM-Levels p:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
-.CTRM-Levels p:last-child{
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+.CTRM-Levels p:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
-.CTRM-Levels p:hover{
-    background-color: rgba(128, 128, 128, 0.5);
-    cursor: pointer;
+.CTRM-Levels p:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
 }
 
-.CTRM-Char{
-    width: 100%;
-    font-size: 150px;
-    padding: 40px 0;
-    text-align: center;
+.CTRM-Char {
+  width: 100%;
+  font-size: 150px;
+  padding: 40px 0;
+  text-align: center;
 }
 
-.CTRM-Pinyin{
-    margin-bottom: 30px;
-    margin-top: -20px;
-    font-size: 22px;
-    color: crimson;
-    opacity: 0;
+.CTRM-Pinyin {
+  margin-bottom: 30px;
+  margin-top: -20px;
+  font-size: 22px;
+  color: crimson;
+  opacity: 0;
 }
 
-.CTRM-Meanings{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.CTRM-Meanings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
 }
 
-.CTRM-Meanings .meaning{
-    width: 400px;
-    padding: 7px; 
-    margin: 9px 0;
-    font-weight: 500;
-    border-radius: 5px;
-    text-transform: uppercase;
-    box-shadow: 
-        inset 0 -3em 3em rgba(0, 0, 0, 0.1), 
-        0 0 0 2px rgb(255, 255, 255),
-        0 4px 10px 0 rgba(0, 0, 0, 0.4);
-    transition: all 0.1s ease-in-out;
-    user-select: none;
+.CTRM-Meanings .meaning {
+  max-width: 400px;
+  width: 100%;
+  padding: 7px;
+  margin: 9px 0;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0 4px 10px 0 rgba(0, 0, 0, 0.4);
+  transition: all 0.1s ease-in-out;
+  user-select: none;
+  padding: 0 10px;
 }
 
-.CTRM-Meanings .meaning:hover{
-    cursor: pointer;
-    transform: scale(1.02);
-    background-color: rgba(220, 20, 60, 0.3);
+.CTRM-Meanings .meaning:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  background-color: rgba(220, 20, 60, 0.3);
 }
 
-.CTRM-More{
-    margin-top: 20px;
-    width: 400px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-   
+.CTRM-More {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.CTRM-More div{
-    padding: 9px;
-    border-radius: 100%;
-    box-shadow: 
-        inset 0 -3em 3em crimson, 
-        0 0 0 2px rgb(255, 255, 255),
-        0 4px 10px 0 rgba(0, 0, 0, 0.4);
-    transition: all 0.1s ease-in-out;
-    user-select: none;
+.CTRM-More div {
+  padding: 9px;
+  border-radius: 100%;
+  box-shadow: inset 0 -3em 3em crimson, 0 0 0 2px rgb(255, 255, 255),
+    0 4px 10px 0 rgba(0, 0, 0, 0.4);
+  transition: all 0.1s ease-in-out;
+  user-select: none;
 }
 
-.CTRM-More div:hover{
-    cursor: pointer;
-    transform: scale(1.05);
+.CTRM-More div:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
-.CTRM-More img{
-    width: 30px;
-    height: 30px;
-    filter: invert(1);
+.CTRM-More img {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
 }

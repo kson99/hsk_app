@@ -1,32 +1,27 @@
-.App {
-  text-align: center;
-
-}
-
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
-  background-color: aliceblue; 
+  background-color: aliceblue;
 }
 
 ::-webkit-scrollbar {
   width: 6px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #888;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background: crimson;
 }

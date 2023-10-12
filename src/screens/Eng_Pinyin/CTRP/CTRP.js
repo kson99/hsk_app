@@ -184,7 +184,7 @@ function CTRP(props) {
           ◀︎<span> Back</span>
         </button>
         <h1>Choose The Right Pinyin</h1>
-        <p style={{ color: "crimson", fontSize: 25 }}>▶︎ Back</p>
+        <p style={{ color: "crimson", fontSize: 25 }}></p>
       </header>
       <div className="CTRP-body">
         <div className="CTRP-Game">

@@ -12,7 +12,7 @@ function Eng_Pinyin() {
           ◀︎<span> Back</span>
         </button>
         <h1>English - Pinyin</h1>
-        <p style={{ color: "crimson", fontSize: 25 }}>▶︎ Back</p>
+        <p style={{ color: "crimson", fontSize: 25 }}></p>
       </header>
 
       <div className="EP-Body">

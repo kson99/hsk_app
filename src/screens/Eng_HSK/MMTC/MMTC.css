@@ -1,98 +1,96 @@
 .MMTC {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.MMTC-body{
-    max-width: 1000px;
-    height: 100%;
-    width: 100%;
-    padding: 40px 30px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.MMTC-body {
+  max-width: 1000px;
+  height: 100%;
+  width: 100%;
+  padding: 40px 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.holder{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.MMTC-Levels{
-    width: 400px;
-    display: flex;
-    border-radius: 5px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.MMTC-Levels {
+  width: 400px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.MMTC-Levels p{
-    margin: 1px;
-    width: 100%;
-    padding: 10px;
-    overflow: hidden;
-    box-shadow: 
-        inset 0 -3em 3em rgba(0, 0, 0, 0.1), 
-        0 0 0 2px rgb(255, 255, 255),
-        0 2px 5px 0 rgba(0, 0, 0, 0.4);
-        user-select: none;
+.MMTC-Levels p {
+  margin: 1px;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0 2px 5px 0 rgba(0, 0, 0, 0.4);
+  user-select: none;
 }
 
-.MMTC-Levels p:first-child{
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+.MMTC-Levels p:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
-.MMTC-Levels p:last-child{
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+.MMTC-Levels p:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
-.MMTC-Levels p:hover{
-    background-color: rgba(128, 128, 128, 0.5);
-    cursor: pointer;
+.MMTC-Levels p:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
 }
 
-.MMTC-Cards{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 10px;
-    column-gap: 30px;
+.MMTC-Cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 10px;
 }
 
-.MMTC-Cards div{
-    width: 150px;
-    height: 150px;
-    padding: 7px; 
-    margin: 9px 0;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    border-radius: 5px;
-    text-transform: uppercase;
-    box-shadow: 
-        inset 0 -3em 3em rgba(0, 0, 0, 0.1), 
-        0 0 0 2px rgb(255, 255, 255),
-        0 4px 10px 0 rgba(0, 0, 0, 0.4);
-    transition: all 0.1s ease-in-out;
-    user-select: none;
+.MMTC-Cards div {
+  width: 160px;
+  height: 160px;
+  padding: 7px;
+  margin: 9px 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0 4px 10px 0 rgba(0, 0, 0, 0.4);
+  transition: all 0.1s ease-in-out;
+  user-select: none;
 }
 
-.MMTC-Cards div:hover{
-    transform: scale(1.04);
-    background-color: rgba(128, 128, 128, 0.15);
+.MMTC-Cards div:hover {
+  transform: scale(1.04);
+  background-color: rgba(128, 128, 128, 0.15);
 }
 
-.MMTC-Cards .means{
-    font-size: 17px;
+.MMTC-Cards .means {
+  font-size: 17px;
+  text-align: center;
 }
